@@ -1,10 +1,10 @@
 # Algoritmos de Búsqueda en Espacios de Estados
 
-Este proyecto se realizó como parte de la materia de **Programación III** en la Tecnicatura Universitaria en Inteligencia Artificial. El objetivo principal del trabajo práctico es implementar y comparar diferentes algoritmos de búsqueda en espacios de estados, aplicados al problema de escape de un laberinto.
+El objetivo principal de este proyecto es implementar y comparar diferentes algoritmos de búsqueda en espacios de estados, aplicados al problema de escape de un laberinto.
 
 ## Descripción del Proyecto
-
-A lo largo de este trabajo práctico, se implementaron los siguientes algoritmos de búsqueda:
+### Primer parte:
+Se implementaron los siguientes algoritmos de búsqueda:
 
 - **Búsqueda en Anchura (BFS)**
 - **Búsqueda en Profundidad (DFS)**
@@ -13,6 +13,14 @@ A lo largo de este trabajo práctico, se implementaron los siguientes algoritmos
 - **Búsqueda A***
 
 Todos estos algoritmos se implementaron en su versión de grafo, manteniendo en memoria los estados ya alcanzados para evitar caminos redundantes.
+
+### Segunda parte:
+Se implementó:
+- **HillClimbing**
+- **HillClimbingReset**
+- **Busqueda Tabú**
+  
+Te invito a que pruebes todos los algoritmos creados.
 
 ## Ejecución del Proyecto
 
@@ -31,5 +39,5 @@ Para ejecutar el proyecto, sigue estos pasos:
 5. Ejecutar el programa:
   ```bash
    python3 main.py instances/ar24.tsp
-
+   #'ar24.tsp' es uno de los tantos mapas que puedes ir probando. Te invito a que ejecutes los demas y veas la diferencia entre ellos
 
