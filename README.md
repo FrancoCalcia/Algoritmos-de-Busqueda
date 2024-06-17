@@ -52,4 +52,6 @@ Para ejecutar el proyecto, sigue estos pasos:
 ## Requerimientos
 * Python 3.10 o superior (https://www.python.org/downloads/).
 * Pygame.
+* tsplib95.
+* matplotlib.
 
